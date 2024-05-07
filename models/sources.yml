@@ -1,0 +1,19 @@
+version: 2
+
+
+sources:
+  - name: northwind
+    database: northwind
+    schema: raw_northwind
+    tables:
+      - name: _order_
+      - name: category
+      - name: customer
+      - name: employee
+      - name: employeeterritory
+      - name: orderdetail
+      - name: product
+      - name: region
+      - name: shipper
+      - name: supplier
+      - name: territory
